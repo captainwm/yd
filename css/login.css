@@ -1,0 +1,266 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.content .header {
+	width: 940px;
+	padding: 53px 30px 19px 30px;
+	border-bottom: 1px solid #dadada;
+	position: relative;
+}
+
+.content .header img {
+	vertical-align: top;
+}
+
+.content .header .back {
+	display: block;
+	text-decoration: none;
+	color: #007bc7;
+	font-size: 12px;
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+}
+
+.main {
+	width: 998px;
+	height: 413px;
+	background: url(/07/yidong/login/login_pic.png) no-repeat;
+	margin: 1px;
+}
+
+.main .sect {
+	float: left;
+	margin: 18px 0 0 650px;
+	background: #FFF;
+	padding: 15px;
+	width: 300px;
+	height: 352px;
+	position: relative;
+	padding-top: 10px;
+}
+
+.main .sect .sectnav {
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.main .sect .sectnav li {
+	text-align: center;
+	width: 100%;
+	height: 44px;
+	color: #379bd6;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.import {
+	width: 300px;
+	height: 116px;
+	margin-top: 20px;
+}
+
+.import .imtop {
+	width: 300px;
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+	height: 38px;
+}
+
+.import .imtop #phone {
+	border: 1px solid #d7d7d7;
+	outline: none;
+	width: 278px;
+	border-radius: 5px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 10px;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+}
+
+.import .text {
+	font-size: 12px;
+	width: 280px;
+	padding: 0 10px;
+	height: 1px;
+	line-height: 20px;
+	color: #ff6363;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+	text-align: left;
+}
+
+#sess {
+	outline: none;
+	width: 138px;
+	border-radius: 5px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #d7d7d7;
+	padding: 0 10px;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+}
+
+.main .import .imdown .btn {
+	width: 130px;
+	height: 36px;
+	background: #d7d7d7;
+	font-size: 14px;
+	border: 1px solid #d7d7d7;
+	color: black;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.import .imdown {
+	width: 300px;
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+	height: 38px;
+}
+
+.import .sessdown {
+	font-size: 12px;
+	width: 280px;
+	padding: 0 10px;
+	height: 1px;
+	line-height: 20px;
+	color: #ff6363;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	z-index: 1;
+	text-align: left;
+}
+
+.import .bottom {
+	width: 100%;
+	margin: 10px 0;
+	font-size: 14px;
+	float: left;
+	text-align: left;
+	display: block;
+	margin-top: 20px;
+}
+
+.import .bottom input {}
+
+.import .bottom span {
+	padding-left: 2px;
+}
+
+.import .bobtn {
+	width: 300px;
+	height: 38px;
+	background-color: #0085d0;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	border: 1px solid #0085d0;
+	color: #fff;
+	border-radius: 5px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	outline: none;
+}
+
+.seebo {
+	width: 100%;
+	font-size: 14px;
+	text-align: left;
+	padding: 10px 0;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+
+.seebo a {
+	text-decoration: none;
+	margin: 0 20px;
+	outline: none;
+	color: #007bc7;
+	font-size: 14px;
+}
+
+.seebo .right {
+	float: right;
+}
+
+.seebo .right .redd {
+	background: rgba(221, 0, 95);
+	width: 19px;
+	border-radius: 50%;
+	color: white;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer {
+	margin-top: 48px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0 0 0;
+	line-height: 18px;
+	border-top: 1px solid #dadada;
+}
+
+.footer .one {
+	width: 998px;
+	margin: 0 auto;
+}
+
+.footer a,
+span {
+	text-decoration: none;
+	cursor: pointer;
+	color: #4e4e4e;
+	font-size: 12px;
+}
+
+.footer .foobo {
+	margin: 5px auto;
+	width: 300px;
+	text-align: left;
+}
+
+.footer .foobo .right {
+	float: right;
+}
+
+.footer .foobo .right p a {
+	vertical-align: middle;
+}
+
+.footer .foobo .right .down {
+	font-size: 12px;
+	padding: 0 0 0 10px;
+	color: #4e4e4e;
+	cursor: pointer;
+}
+
+.footer .foobo .right .up {
+	position: relative;
+	top: -8px;
+}
+
+.footer .foobo .right img {
+	margin-right: 6px;
+}

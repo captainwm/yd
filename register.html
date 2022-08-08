@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>免费注册</title>
+		<link rel="shortcut icon" href="/07/yidong/img/favicon.ico" type="images/x-icon">
+		<link rel="stylesheet" href="css/register.css">
+	</head>
+	<body>
+		<div class="content">
+			<div class="header">
+				<a href="">
+					<img src="img/logo.png" alt="">
+				</a>
+				<a class="back" href="login.html">[返回]</a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="reg_left">
+				<h1>注册</h1>
+				<p><strong class="blue">温馨提示：</strong><br>
+					<br>
+					1.注册需填入正确的邮箱地址，邮箱地址注册成功后将作为登录时的用户名。<br>
+					<br>
+					2.系统会在注册后给你填写的邮箱发送注册激活邮件。账户激活后才可登录中国移动网上商城。<br>
+					<br>
+					3.如果您是中国移动用户，可选择使用手机登录，无需重复注册。
+				</p>
+			</div>
+			<div class="reg_right">
+				<div class="reg_righttop">
+					尊敬的客户，如果您已经注册中国移动公司网站，您可以直接
+					<a href="login.html">登录</a>
+				</div>
+				<div class="login_tip"></div>
+				<div class="logindeta">
+					<div class="lefttitle">
+						邮箱：
+					</div>
+					<ul class="emaillist"></ul>
+					<input id="e_name" name="e_name" class="reg_input" type="text" maxlength="50">
+				</div>
+				<div class="logindeta">
+					<div class="lefttitle">设置密码</div>
+					<input class="reg_input" type="password" id="newPassword" maxlength="16" name="newPassword"
+						onkeyup="checkStrong();">
+				</div>
+				<div class="passwd">
+					<div class="nopass">
+						<div class="paone">密码安全强度：</div>
+						<div class="patwo">
+							<p class="password_strong_pic"></p>
+							<!-- <p class="pw_st_r hide" style="display: none;"></p>
+							<p class="pw_st_z hide" style="display: none;"></p>
+							<p class="pw_st_q hide" style="display: none;"></p> -->
+						</div>
+					</div>
+					<p class="fll">8-16个字符，请使用字母数字或符号的组合密码</p>
+				</div>
+				<div class="logindeta">
+					<div class="lefttitle">确认密码</div>
+					<input class="reg_input" type="password" maxlength="16" name="newPasswordRepeat"
+						id="newPasswordRepeat">
+				</div>
+				<div class="yanzheng">
+					<div class="logindeta fll yanzheng" style="width:178px">
+						<div class="lefttitle">验证码：</div>
+						<input style="width:88px" class="reg_input" type="text" id="inputCode" name="inputCode"
+							maxlength="6">
+					</div>
+					<div class="yzm_main"><img src="register/captchazh.png" style="width: 69px;height: 34px;"><a>换一张</a>
+					</div>
+				</div>
+				<div class="reg_xy">
+					<input id="regText_bg_new" type="checkbox" name="terms">
+					请阅读<a id="agreement" href="#">《中国移动网站服务协议》</a><br>
+					<input id="regText_bg_person" type="checkbox" name="terms_person">
+					请阅读<a id="agreement_2" href="#">《个人信息保护政策》&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				</div>
+				<input class="reg_btn" type="button" value="同意以上条款并注册" id="regSub" onclick="sub();">
+			</div>
+		</div>
+
+		<div class="footer">
+			<p class="one">
+				<a href="">新闻中心</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">法律声明</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">诚聘英才</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">采购信息</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">企业合作</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">联系我们</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">站点导航</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">中国移动研究院</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">中国移动设计院</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="">友情链接</a>
+			</p>
+			<p class="two">
+				<span>掌上营业厅：</span>
+				<a href="">wap.10086.cn</a>
+				<span> 语音自助服务：10086&nbsp; 短信营业厅：10086 </span>
+				<a href="">自助终端</a>
+				<a href="">营业厅</a>
+				<a href="">手机营业厅下载</a>
+			</p>
+			<div class="foobo">
+				<span>
+					<a href=""><img src="img4/可信网站.png" alt=""></a>
+				</span>
+				<div class="right">
+					<p><a href=""><img src="img4/备案.gif" alt=""><span class="up">京ICP备05002571号</span></a></p>
+					<p class="down">中国移动通信版权所有</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
